@@ -67,6 +67,11 @@ body {
   top: 70px;
   width: 36px;
 }
+.delete {
+  top: 115px;
+  width: 36px;
+}
+
 .save-button:hover {
   background-color: green;
   color: white;
@@ -101,4 +106,13 @@ body {
 
 a {
   text-decoration: none;
+}
+
+input {
+  display: block;
+  margin: 5px auto;
+}
+
+.updateButton {
+  margin: 5px auto;
 }

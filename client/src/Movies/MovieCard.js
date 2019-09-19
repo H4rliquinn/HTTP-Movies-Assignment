@@ -2,7 +2,7 @@ import React from "react";
 import { withRouter } from "react-router";
 
 const NoMovieCard = props => {
-  const { title, director, metascore, stars, id } = props.movie;
+  const { title, director, metascore, stars } = props.movie;
   return (
     <div className="movie-card">
       <div className="head">

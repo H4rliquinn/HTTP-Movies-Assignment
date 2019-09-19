@@ -37,7 +37,7 @@ export default class Movie extends React.Component {
     return (
       <div className="save-wrapper">
         <MovieCard movie={this.state.movie} />
-        <div className="save-button" onClick={this.saveMovie}>
+        {/* <div className="save-button" onClick={this.saveMovie}>
           Save
         </div>
         <div
@@ -47,7 +47,7 @@ export default class Movie extends React.Component {
           }
         >
           Edit{this.state.id}
-        </div>
+        </div> */}
       </div>
     );
   }

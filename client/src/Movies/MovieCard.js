@@ -1,10 +1,13 @@
-import React from 'react';
+import React from "react";
+import { withRouter } from "react-router";
 
-const MovieCard = props => {
-  const { title, director, metascore, stars } = props.movie;
+const NoMovieCard = props => {
+  const { title, director, metascore, stars, id } = props.movie;
   return (
     <div className="movie-card">
-      <h2>{title}</h2>
+      <div className="head">
+        <h2>{title}</h2>
+      </div>
       <div className="movie-director">
         Director: <em>{director}</em>
       </div>
@@ -21,5 +24,5 @@ const MovieCard = props => {
     </div>
   );
 };
-
+const MovieCard = withRouter(NoMovieCard);
 export default MovieCard;

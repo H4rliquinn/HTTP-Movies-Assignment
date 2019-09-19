@@ -14,6 +14,7 @@ body {
   cursor: pointer;
   position: relative;
   margin: 1rem auto;
+  width: 500px;
 }
 
 .movie-director {
@@ -61,6 +62,11 @@ body {
   padding: 5px 10px;
   background-color: lightseagreen;
 }
+
+.edit {
+  top: 70px;
+  width: 36px;
+}
 .save-button:hover {
   background-color: green;
   color: white;
@@ -74,4 +80,25 @@ body {
 .movie-warning {
   color: red;
   text-align: center;
+}
+
+.head {
+  display: flex;
+  justify-content: space-between;
+}
+
+.button {
+  background: lightblue;
+  border: 1px solid black;
+  font-weight: bold;
+  box-shadow: 1px 1px;
+  width: 100px;
+  height: 50px;
+  line-height: 50px;
+  padding-right: 15px;
+  margin: 10px 10px 0px 5px;
+}
+
+a {
+  text-decoration: none;
 }
